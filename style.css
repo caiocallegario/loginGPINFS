@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.home{
+    background-color: #6094bc;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.msg-home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+}
+
+.sombra{
+    margin-left: 10px;
+    opacity: 70%;
+}
+
+.login{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3% 39% 0% 39%; 
+    padding: 10px;
+}
+
+.user{  
+    border: solid 1px rgb(230, 173, 68);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.password{
+    margin-top: 8px;
+    border: solid 1px rgb(230, 173, 68);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.enter{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: 43%;
+    background: #f01424;
+    color: white;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.esqueceu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+input{
+	text-align: center;
+}
+.copy{
+    justify-content: center;
+    display: flex;
+    color: white;
+    opacity: 70%;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.button:hover{
+    background: #c81424;
+}
+
+.user::selection{ 
+        border: solid 1px red;
+        border-radius: 4px;
+        padding: 5px;
+}
